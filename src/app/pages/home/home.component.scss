@@ -1,0 +1,20 @@
+.mat-card {
+  background-color: #fdd835;
+  height: 100%;
+  color: white;
+  border-radius: 0px;
+}
+
+.jumbotron-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.jumbotron-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #909090;
+}

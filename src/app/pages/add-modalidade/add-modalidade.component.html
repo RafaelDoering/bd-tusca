@@ -1,0 +1,28 @@
+<div class="container">
+  <mat-card class="mx-auto my-4">
+    <h1 class="text-center">Adicionar Modalidade</h1>
+    <form [formGroup]="addModalidadeForm" class="mx-auto">
+      <mat-form-field appearance="outline" class="col-md-12">
+        <mat-label>Nome</mat-label>
+        <input matInput formControlName="nome" placeholder="Nome">
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="col-md-12">
+        <mat-label>Genero</mat-label>
+        <input matInput formControlName="genero" placeholder="Genero">
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="col-md-12">
+        <mat-label>Unidade de Pontuação</mat-label>
+        <input matInput formControlName="unidadePontuacao" placeholder="Unidade de Pontuação">
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="col-md-12">
+        <mat-label>Descrição</mat-label>
+        <input matInput formControlName="descricao" placeholder="Descrição">
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="col-md-12">
+        <mat-label>Tipo</mat-label>
+        <input matInput formControlName="tipo" placeholder="Tipo">
+      </mat-form-field>
+      <button mat-raised-button color="primary" class="col-md-12 py-2" (click)="onSubmit()">Adicionar</button>
+    </form>
+  </mat-card>
+</div>
